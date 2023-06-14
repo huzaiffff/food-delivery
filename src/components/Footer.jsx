@@ -40,7 +40,6 @@
 import React from 'react';
 import restaurantImage from '../imgs/ffff.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faPhone,faEnvelope  } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
@@ -61,7 +60,7 @@ const Footer = () => {
         <div className="row mt-3">
           <div className="col-md-4">
             <h5>Address</h5>
-            <p>123 Main St, Anytown USA</p>
+            <p>Bengaluru, Karnataka India</p>
           </div>
           <div className="col-md-4">
             <h5>Hours</h5>
@@ -69,15 +68,7 @@ const Footer = () => {
           </div>
           <div className="col-md-4">
             <h5>Contact Us</h5>
-            <p><FontAwesomeIcon icon={faPhone} /> Phone: (555) 555-5555<br/> <FontAwesomeIcon icon={faEnvelope} />Email: info@restaurant.com</p>
-          </div>
-        </div>
-        <div className="row mt-4">
-          <div className="col-md-12 text-center">
-            <FontAwesomeIcon icon={faInstagram} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faFacebook} size="2x" className="me-3" />
-            <FontAwesomeIcon icon={faTwitter} size="2x" className="me-3" />
-            {/* Add more icons and their respective links here */}
+            <p><FontAwesomeIcon icon={faPhone} /> Phone: 9999999999<br/> <FontAwesomeIcon icon={faEnvelope} />Email: info@restaurant.com</p>
           </div>
         </div>
       </div>

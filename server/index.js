@@ -23,13 +23,13 @@
   // Mongoose
   const mongoose = require("mongoose");
   mongoose.set("strictQuery", false);
-
+//promises
   mongoose
     .connect(process.env.Db_URL)
     .then((result) => {
       app.listen(port, () => {
         console.log(
-          `Example app listening at http://localhost:${port} Connected To DB ♥`
+          `mongo db is ruuning on port 500`
         );
       });
     })

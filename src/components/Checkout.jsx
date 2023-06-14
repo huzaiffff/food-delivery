@@ -80,7 +80,7 @@ const Checkout = () => {
             <ul className="list-group mb-3">
               {itemList}
               <li className="list-group-item d-flex justify-content-between">
-                <span>Total (USD)</span>
+                <span>Total (INR)</span>
                 <strong>
                   ${total}
                 </strong>
@@ -178,7 +178,7 @@ const Checkout = () => {
                     onChange={handleInputChange}
                   >
                     <option value="">Choose...</option>
-                    <option>United States</option>
+                    <option>India</option>
                   </select>
                   <div className="invalid-feedback">
                     Please select a valid country.
@@ -197,7 +197,7 @@ const Checkout = () => {
                     onChange={handleInputChange}
                   >
                     <option value="">Choose...</option>
-                    <option>California</option>
+                    <option>Karnataka</option>
                   </select>
                   <div className="invalid-feedback">
                     Please provide a valid state.
@@ -220,26 +220,6 @@ const Checkout = () => {
                   <div className="invalid-feedback">Zip code required.</div>
                 </div>
                 <hr className="my-4" />
-                <div className="form-check">
-                  <input
-                    type="checkbox"
-                    className="form-check-input"
-                    id="same-address"
-                  />
-                  <label className="form-check-label" htmlFor="same-address">
-                    Shipping address is the same as my billing address
-                  </label>
-                </div>
-                <div className="form-check">
-                  <input
-                    type="checkbox"
-                    className="form-check-input"
-                    id="save-info"
-                  />
-                  <label className="form-check-label" htmlFor="save-info">
-                    Save this information htmlFor next time
-                  </label>
-                </div>
                 <hr className="my-4" />
                 <h4 className="mb-3">Payment</h4>
                 <div className="my-3">
